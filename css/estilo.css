@@ -1,5 +1,43 @@
-/*body {
-}*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+header {
+    border: 1px solid red;
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    border: 1px solid blue;
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    border: 1px solid green;
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 0 0 15px;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #C78C19;
+}
 
 #banner {
     width: 100%;
@@ -48,4 +86,16 @@ ul {
 
 .imagem-beneficios {
     width: 50%;
+}
+
+footer {
+    text-align: center;
+    background: url(../img/bg.jpg);
+    padding: 40px 0px;
+}
+
+.copyright {
+    color: #fff;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
