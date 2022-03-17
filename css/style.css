@@ -3,20 +3,17 @@ body {
 }
 
 header {
-    border: 1px solid red;
     background: #BBBBBB;
     padding: 20px 0;
 }
 
 .caixa {
-    border: 1px solid blue;
     width: 940px;
     position: relative;
     margin: 0 auto;
 }
 
 nav {
-    border: 1px solid green;
     position: absolute;
     top: 110px;
     right: 0px;
@@ -248,5 +245,21 @@ td, th {
     margin: 2em auto;
 }
 
+@media screen and (max-width:480px) {
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }
+}
 
 
